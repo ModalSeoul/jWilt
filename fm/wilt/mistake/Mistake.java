@@ -13,5 +13,8 @@ public class Mistake {
 	public static void main(String[] args) {
 		Api Wilt = new Api("json");
 		System.out.println(Wilt.getMember("1"));
+		/* Access keys:
+		 * 	Wilt.getMember("1").get("unique_artists");
+		 */
 	}
 }
