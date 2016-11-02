@@ -7,6 +7,7 @@ import fm.wilt.mistake.Api;
  * lol why did I write this in Java
  */
 
+
 public class Mistake {
 	
 	public static void main(String[] args) {

@@ -1,11 +1,12 @@
 package fm.wilt.mistake;
 
 import fm.wilt.mistake.Http;
-
 import org.json.simple.*;
 import org.json.simple.parser.JSONParser;
 
+
 public class Api {
+	
 	protected String format;
 	protected Http http;
 	JSONParser parser = new JSONParser();
