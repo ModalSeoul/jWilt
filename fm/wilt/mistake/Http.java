@@ -15,8 +15,8 @@ public class Http {
 		URL url = new URL(String.format("%s%s%s", APIUrl, endPoint, format));
 		URLConnection wilt = url.openConnection();
 		BufferedReader in = new BufferedReader(
-								new InputStreamReader(
-								wilt.getInputStream()));
+				new InputStreamReader(
+				wilt.getInputStream()));
 		String inputLine = in.readLine();
 		in.close();
 		return inputLine;
